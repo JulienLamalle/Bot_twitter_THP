@@ -70,6 +70,8 @@ def stream_for_me(client)
     end
     client.favorite(tweet)
     puts ">> LIKED"
+    client.retweet(tweet)
+    puts ">> RETWEETED"
   end
 end
 
